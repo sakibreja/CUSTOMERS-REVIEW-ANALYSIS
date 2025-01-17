@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
-dataset = pd.read_csv(r"C:\Users\rejas\Prakash Senapati sir\Prakash Senapati lab\4.CUSTOMERS REVIEW DATASET\Restaurant_Reviews.tsv", delimiter = '\t', quoting = 3)
+dataset = pd.read_csv(r"C:\CUSTOMERS REVIEW DATASET\Restaurant_Reviews.tsv", delimiter = '\t', quoting = 3)
 
 # Duplicate the data
 dataset_2 = pd.concat([dataset, dataset], ignore_index=True)
